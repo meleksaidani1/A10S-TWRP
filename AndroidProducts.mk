@@ -7,3 +7,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_a10s.mk
+
+COMMON_LUNCH_CHOICES := \
+    twrp_a10s-user \
+    twrp_a10s-userdebug \
+    twrp_a10s-eng
