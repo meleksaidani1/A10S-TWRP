@@ -7,9 +7,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_a10s.mk
-
-# Define lunch combos using COMMON_LUNCH_CHOICES
-COMMON_LUNCH_CHOICES := \
-  omni_a10s-user \
-  omni_a10s-userdebug \
-  omni_a10s-eng
