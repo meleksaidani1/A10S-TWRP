@@ -1,18 +1,13 @@
 #
-# Copyright (C) 2024 The Android Open Source Project
-# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2023 The Android Open Source Project
+# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-# Inherit from common Twrp config
-$(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
-
-# Inherit some common TWRP stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
-
-# Inherit device configuration
-$(call inherit-product, $(DEVICE_PATH)/device.mk)
+# Inherit from a10s device
+$(call inherit-product, device/samsung/a10s/device.mk)
 
 PRODUCT_DEVICE := a10s
 PRODUCT_NAME := twrp_a10s
