@@ -6,4 +6,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_a10s.mk
+    $(LOCAL_DIR)/twrp_a10s.mk
