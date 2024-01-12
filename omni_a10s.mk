@@ -15,7 +15,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 PRODUCT_DEVICE := a10s
-PRODUCT_NAME := omni_a10s
+PRODUCT_NAME := twrp_a10s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A107F
 PRODUCT_MANUFACTURER := samsung
