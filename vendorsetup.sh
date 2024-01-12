@@ -6,6 +6,8 @@
 
 # Define lunch combos using COMMON_LUNCH_CHOICES
 
+lunch_menu_show_common_choices=true
+
 COMMON_LUNCH_CHOICES := \
 add_lunch_combo  omni_a10s-user \
 add_lunch_combo omni  omni_a10s-userdebug \
